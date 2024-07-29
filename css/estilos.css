@@ -1,0 +1,62 @@
+/* Index - Empresa */
+
+body{
+    font-family: "Roboto", sans-serif;
+}
+header{
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+header nav ul{
+    display: flex;
+    list-style: none;
+    gap: 15px;
+    margin: 15px;
+}
+section h1{
+    text-align: center;
+    font-size: 30px;
+}
+
+section p{
+    text-align: center;
+    font-size: 20px;
+}
+
+section h2{
+    text-align: center;
+}
+div .hotel-uno{
+    width: 100%;
+    height: 1000px;
+}
+.padre-flex{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+div .padre-flex{
+    width: 100px;
+    height: 100px;
+}
+.bg-oscuro{
+    background-color: black;
+    color: #fff;
+    padding: 2px;
+}
+
+.titulo{
+    font-size: 20;
+}
+
+.info-nosotros{
+    text-align: left;
+}
+
+.derechos{
+    text-align: center;
+}
